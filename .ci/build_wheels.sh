@@ -8,7 +8,7 @@ pys=(/opt/python/*/bin)
 pys=(${pys[@]//*27*/})
 pys=(${pys[@]//*34*/})
 # pys=(${pys[@]//*35*/})
-pys=(${pys[@]//*38*/})  # waiting for vtk on python 3.8
+# pys=(${pys[@]//*38*/})
 
 # debug set pybin
 # PYBIN="/opt/python/cp37-cp37m/bin"
