@@ -19,3 +19,8 @@
 pykdtree.egg-info/
 build/
 dist/
+wheelhouse
+
+# coverage testing
+.coverage
+htmlcov

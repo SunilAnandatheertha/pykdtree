@@ -12,6 +12,9 @@ case $PYTHON_VERSION in
 3.7)
   FULL_VERSION=3.7.3
   ;;
+3.8)
+  FULL_VERSION=3.8.2
+  ;;
 esac
 
 INSTALLER_NAME=python-$FULL_VERSION-macosx10.9.pkg
@@ -31,7 +34,6 @@ sudo ln -s /usr/local/bin/python$PYTHON_VERSION /usr/local/bin/python
 which python
 python --version
 python -m ensurepip
-python -m pip install setuptools twine wheel numpy
 
 # install openmp
 # brew install libomp
