@@ -1,0 +1,21 @@
+# Compiled source #
+###################
+*.pyc
+*.pyd
+*.c
+*.cpp
+*.so
+*.o
+*.cache
+
+# OS generated files #
+######################
+.fuse_hidden*
+*~
+*swp
+
+# Pip generated folders #
+#########################
+pykdtree.egg-info/
+build/
+dist/
